@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <!-- Include Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <style>
+            .btn-primary {
+                --bs-btn-color: #000;
+                --bs-btn-bg: #c4d600;
+                --bs-btn-border-color: #c4d600;
+                --bs-btn-hover-color: #fff;
+                --bs-btn-hover-bg: #93328e;
+                --bs-btn-hover-border-color: #93328e;
+                --bs-btn-focus-shadow-rgb: 49,132,253;
+                --bs-btn-active-color: #fff;
+                --bs-btn-active-bg: #0a58ca;
+                --bs-btn-active-border-color: #0a53be;
+                --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+                --bs-btn-disabled-color: #fff;
+                --bs-btn-disabled-bg: #0d6efd;
+                --bs-btn-disabled-border-color: #0d6efd;
+                font-weight: 700;
+            }
+            .btn {
+                --bs-btn-padding-x: 0.75rem;
+                --bs-btn-padding-y: 0.675rem;
+            }
+        </style>
+    </head>
+    <body style="background: #F0F0F0; padding: 0; width: 100%; margin: 0;">
+        <div marginwidth="0" marginheight="0">
+            <div marginwidth="0" marginheight="0" id="" dir="ltr" style="background: #F0F0F0; margin: 0; padding: 20px 0 20px 0; width: 100%; margin: 0;">
+                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                    <tbody>
+                        <tr>
+                            <td align="center" valign="top" style="">
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" style="background-color: #fff; border: 0px solid #F0F0F0; border-radius: 10px !important; overflow: hidden;">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div style="padding: 0px 0px; background: #fff;">
+                                                    <table style="background: #fff; font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size: 14px; width: 100%;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="width: 100%;" align="center">
+                                                                    <img src="new_logo.png" alt="" style="width: 100%; margin-bottom: 0px; border-top-left-radius: 8px !important; border-top-right-radius: 8px !important;" />
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="600">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td valign="top" style="background-color: #fff; padding: 0px;">
+                                                                <table border="0" cellpadding="20" cellspacing="0" width="100%" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td style="width: 100%; padding: 15px 10px; font-size: 16px;"> 
+
+                                                                               <section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="login-form white-bg px-2 py-2 rounded box-shadow">
+                   <form method="POST" class="form-login" id="deleteForm" action="">
+
+    <div class="row">
+        <div class="col-md-12 text-center mb-2">
+            <h3 class="mb-0 text-black">Delete Account</h3>
+        </div>
+
+        <div class="col-12 mb-3">
+            <label for="name" class="">Name</label>
+            <input type="text" class="form-control" name="name" id="name" required>
+        </div>
+
+        <div class="col-12 mb-3">
+            <label for="email" class="">Email</label>
+            <input type="email" class="form-control" name="email" id="email" required>
+        </div>
+
+        <div class="col-12 mb-3">
+            <label for="phone" class="">Phone Number</label>
+            <input type="tel" class="form-control" name="phone" id="phone" required>
+        </div>
+
+        <div class="col-12 mb-3">
+            <label for="message" class="">Message</label>
+            <textarea class="form-control" name="message" id="message" rows="4" style="border-radius: 20px" required></textarea>
+        </div>
+
+        <div class="col-12">
+            <button type="button" id="submitBtn" class="themeht-btn primary-btn w-100 btn btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#successModal">Delete Account</button>
+        </div>
+    </div>
+</form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                                                                                     <!--<p style="color: #000;">&#169; {{date('Y')}} {{ config('app.name') }}. All Rights Reserved.</p>-->
+                                                                               
+
+                                                                                <div>
+                                                                                 <img style="max-width: 100%;" src="{{ asset('') }}admin-assets/assets/img/10124050453.png" alt="">
+                                                                                </div>
+
+																			</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+         
+        <!-- Modal -->
+        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+          <div class="modal-dialog  modal-sm modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="successModalLabel"></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p class="fs-5 text-center">Successfully Deleted the account!</p>
+              </div>
+              <!--<div class="modal-footer">-->
+              <!--  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+              <!--  <button type="button" class="btn btn-primary">Save changes</button>-->
+              <!--</div>-->
+            </div>
+          </div>
+        </div>
+        
+        <!-- Include Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    </body>
+</html>
